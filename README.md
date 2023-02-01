@@ -1,7 +1,7 @@
 Rigaku_XRFdataText
 ====
 
-The script reads the Rigaku CSV files with XRF data and splits and regroups the data based on measured elements. I quick plotting feature is also included to quick verification of the data.
+The script reads the Rigaku CSV files with XRF data and splits and regroups the data based on measured elements. A plotting feature is also included to quick verification of the data.
 
 INSTALLATION
 ----
@@ -9,11 +9,8 @@ To use the script, it is advisable to create a python virtual environment and ru
 
 HOW TO RUN THE SCRIPT
 ---
-
-Please, move the Rigaku CSV files in the 'Raw Data' directory.
-Run the script 'main' typinh py main.py.
-You will be asked to specific two numbers (columns of the MACCOR text file to work out the average).
-You will get the average of charge the discharge values at a given cycle number for multiple cells.
++ Please, move the Rigaku CSV files in the 'Raw Data' directory.
++ Run the script 'main' typing "py main.py".
 
 Example
 ---
